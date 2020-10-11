@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+    background-image: url("Moscow.jpg");
+background-size: 100%;
+
+}
+a {
+    color:#008000 	;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:	#000000 ;
+     text-decoration:none; 
+     cursor:pointer;  
+}
+#headline {
+    font-size: 24vh;
+}
